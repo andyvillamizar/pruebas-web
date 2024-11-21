@@ -1,0 +1,65 @@
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.screen {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.screen.active {
+  display: block;
+}
+
+.logo {
+  width: 50px;
+  margin: 10px auto;
+}
+
+h1, h2 {
+  color: #0056ff;
+}
+
+.btn-primary {
+  background-color: #0056ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #003ea0;
+}
+
+.genres button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.artist-card {
+  margin: 10px;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
